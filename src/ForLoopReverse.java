@@ -5,7 +5,7 @@ public class ForLoopReverse {
         System.out.print("Input n= ");
         int n = sc.nextInt();
         int reverse=0;
-        while (n !=0) {
+        for (;n !=0;) {
             int digit = n % 10;
             reverse = reverse * 10 + digit;
             n /= 10;
